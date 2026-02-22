@@ -8,7 +8,7 @@ import ScoreCircle from "@/components/ScoreCircle";
 import RecommendationBadge from "@/components/RecommendationBadge";
 import ResultsSkeleton from "@/components/ResultsSkeleton";
 
-const WEBHOOK_URL = "[USER_INSERT_N8N_WEBHOOK_URL_HERE]";
+const WEBHOOK_URL = "http://localhost:5678/webhook-test/screen-candidate";
 
 interface ScreeningResult {
   score: number;
